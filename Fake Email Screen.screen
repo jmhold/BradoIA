@@ -1,0 +1,62 @@
+﻿<?Infragistics.Models format="xaml" version="17"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         Id="e80fdbac-9d0d-0228-4122-457102f38893">
+    <Page.Content>
+        <Content Width="1024" Height="768" Background="White" Id="5bdaff6d-686d-d486-4fd3-42cd77ab0afb">
+            <Layer Layout="Stretch" Id="38f1127d-9228-141d-1f31-62ee6aea6486" Panel.Layout="Stretch" />
+        </Content>
+    </Page.Content>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/25/2013 22:42:27" Id="b8fcd8da-cfc8-ccdc-5517-2885f5a834a7">
+            <KeyFrame Id="29bed8f9-3b03-03aa-b8d6-cd01a8558dac">
+                <Add Property="Panel.Children" Target="38f1127d-9228-141d-1f31-62ee6aea6486">
+                    <Add.Item>
+                        <Image SourcePath="assets/007.png" Id="0ca52a59-0b67-43ba-7da2-f1c0633520a1" ControlExtensions.Locked="True" Panel.Bounds="0,0,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="38f1127d-9228-141d-1f31-62ee6aea6486">
+                    <Add.Item>
+                        <Line Type="Line" Thickness="1" RotationAngle="90" Background="Transparent" Id="9895e797-cedd-c647-27dd-745391b2ae67" Panel.Bounds="203,157,27,546">
+                            <Line.StartPoint>
+                                <Point X="4" Y="-60" Id="c7e83af4-d5f5-2611-2c43-3c500ec3d1ed" />
+                            </Line.StartPoint>
+                            <Line.Segments>
+                                <Segment Id="95848c4e-f2f8-cac2-95d5-29b6fa0f30ef">
+                                    <Segment.EndPoint>
+                                        <Point X="4" Y="486" Id="6b2a9fd5-991d-61ce-7089-e605c6026438" />
+                                    </Segment.EndPoint>
+                                </Segment>
+                            </Line.Segments>
+                        </Line>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="38f1127d-9228-141d-1f31-62ee6aea6486">
+                    <Add.Item>
+                        <Tabs FontStyle="" Id="2d9689ab-e475-1b60-d90e-ef1a1f668d40" Panel.Bounds="231,157,590{5,2147483647},546{5,2147483647}">
+                            <TabItem Header="Email" IsSelected="True" Id="1546e8ad-f59e-02ca-f349-eed6743a571e">
+                                <Container Layout="Stretch" ClipToContainer="True" Id="dfa6aca6-d7bb-947a-635c-49e803556691">
+                                    <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nulla odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut lorem metus, consequat vitae commodo at, dictum eget est. Aliquam tincidunt ipsum sit amet sapien molestie congue. Ut tincidunt molestie est, vel consectetur enim tincidunt quis. Etiam fermentum pharetra tortor quis placerat. Vestibulum varius iaculis tortor, nec cursus orci feugiat eu. Quisque faucibus elementum varius.&#xD;&#xD;Integer cursus nulla id nisi malesuada tempor. Sed bibendum erat eu tortor elementum venenatis. Phasellus vel urna eros. Aenean eget diam enim. Morbi adipiscing sem vitae felis feugiat cursus. Praesent congue, sem nec scelerisque pretium, eros sapien gravida augue, ut dapibus nulla lorem a lorem. Sed vel orci vel erat tincidunt sagittis ac suscipit lectus. Sed nec nisl sed odio rutrum tempus. Donec feugiat convallis vestibulum. Pellentesque sed mi risus, vel varius massa. Ut ac lorem enim. Aenean eget massa et lorem sagittis ultrices. Aenean ultrices congue metus, vitae bibendum neque convallis sit amet. Sed mattis nisl quis dui pharetra viverra.&#xD;&#xD;https://click.here.com/?to=sign-up" Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="68caff26-2a3f-8ae7-9ae6-dcf26b51301b" Panel.Bounds="19,21,548{5,2147483647},475{5,2147483647}" />
+                                </Container>
+                            </TabItem>
+                        </Tabs>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="38f1127d-9228-141d-1f31-62ee6aea6486">
+                    <Add.Item>
+                        <Tree FontStyle="" Id="868cd748-ec7a-e153-26da-936a0352df1a" Panel.Bounds="33,157,150{5,2147483647},545{5,2147483647}">
+                            <TreeItem Text="Item 1" Id="7cd3465a-b4f7-c65b-9ffe-42246d7be7bb" />
+                            <TreeItem Text="Item 2" Id="272856a6-c2a9-6a22-5ee6-8b2e973dbbf6">
+                                <TreeItem Text="Item 3" Id="4f2ab664-0949-bf68-2460-e4f5c7249d27" />
+                            </TreeItem>
+                        </Tree>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="38f1127d-9228-141d-1f31-62ee6aea6486">
+                    <Add.Item>
+                        <Rectangle Background="White" Id="de8c942e-2c3c-9b05-7bbb-9f4e55f06fae" Panel.Bounds="847,187,144{5,2147483647},515{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+            </KeyFrame>
+        </Scene>
+    </Page.Scenes>
+</Page>
